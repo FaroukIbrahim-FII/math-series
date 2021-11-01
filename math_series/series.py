@@ -10,12 +10,6 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n-1) + fibonacci(n-2)
-        """
-        fib(4)+fib(3)
-        (fib(3)+fib(2))+(fib(2)+fib(1))
-        ((fib(2)+fib(1))+(1+0))+((1+0)+1)
-        (1+1+1+1+1)
-        """
 
 def lucas(n):
     """
@@ -29,7 +23,6 @@ def lucas(n):
         return 1
     else:
         return lucas(n-1) + lucas(n-2)
-
 
 def sum_series(n, para1=0, para2=1):
     """
